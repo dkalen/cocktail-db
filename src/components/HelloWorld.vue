@@ -3,7 +3,7 @@
     <input v-model="keywords" placeholder="search">
     <div class="recipes-list">
       <masonry
-        :cols="{default: 6,3000: 5,2500: 4,2000: 3, 1500: 2, 1000: 1 }"
+        :cols="{default: 6,2880: 5,2400: 4,1920: 3, 1440: 2, 960: 1 }"
         :gutter="30"
       >
       <recipe v-for="recipe in results" :recipe="recipe" :key="recipe.name"></recipe>

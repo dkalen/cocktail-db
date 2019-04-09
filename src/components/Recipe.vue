@@ -1,17 +1,11 @@
 <template>
-    <div class="card recipe">
+    <div class="md-card card recipe">
         <p class="ctg"><span style="color: #9c0058;"><b>{{recipe.name}}</b></span></p>
         <p class="block"><span style="color: #9c0058;"><i>{{recipe.description}}</i></span></p>
-        <table width="100%">
-            <colgroup>
-                <col width="25%" />
-                <col width="75%" />
-            </colgroup>
-            <tr valign="top" v-for="ingredient in recipe.ingredients" v-bind:key="recipe.name + ingredient.detail.name">
-                <td class="tzv0">{{ingredient.amount}} {{ingredient.measurement}}</td>
-                <td class="tzv">{{ingredient.detail.name}}</td>
-            </tr>
-        </table>
+        <div class="ingredients-list" v-for="ingredient in recipe.ingredients" v-bind:key="recipe.name + ingredient.detail.name">
+          <div class="amount">{{ingredient.amount}} {{ingredient.measurement}}</div>
+          <div class="ingredient">{{ingredient.detail.name}}</div>
+        </div>
         <p class="hang">{{recipe.prep}}</p>
         <p class="tx1"><span style="color: #9c0058;"><i>{{recipe.origin}}</i></span></p>
     </div>
@@ -34,10 +28,22 @@ export default {
   margin: 24px;
   padding: 16px;
   color: #757575;
-  border-radius: 5px;
-  background-color: #fff;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
-    0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+.ingredients-list {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 25% 75%;
+  grid-gap: 1em;
+}
+.amount {
+  font-size: small;
+  text-align: right;
+  font-weight: bold;
+}
+.ingredient {
+  font-size: small;
+  text-align: left;
+  font-weight: bold;
 }
 .tx1 {
   margin-top: 1em;
@@ -54,19 +60,6 @@ export default {
   margin-left: 1.5em;
   margin-right: 0em;
   text-indent: -1.5em;
-}
-.tzv0 {
-  font-size: small;
-  text-align: right;
-  font-weight: bold;
-}
-.tzv {
-  font-size: small;
-  text-align: left;
-  text-indent: 0em;
-  margin-left: 1em;
-  font-weight: bold;
-  padding-left: 1em;
 }
 .block {
   display: block;
