@@ -28,23 +28,19 @@ export default {
       let result = this.cocktails;
       if (this.keywords) {
         const keywordList = this.keywords
-          .split(',')
+          .split(' ')
           .map(k => k.trim().toLowerCase());
         result = result.filter(c => {
-          const matchesIngredient = keywordList.every(k =>
-            c.ingredients.some(
+          return keywordList.every(k => {
+            const matchesIngredient = c.ingredients.some(
               i =>
                 (i.detail.name || '').toLowerCase().includes(k) ||
                 (i.detail.description || '').toLowerCase().includes(k)
-            )
-          );
-          const matchesName = keywordList.every(k =>
-            c.name.toLowerCase().includes(k)
-          );
-          const matchesPrep = keywordList.every(k =>
-            (c.prep || '').toLowerCase().includes(k)
-          );
-          return matchesIngredient || matchesName || matchesPrep;
+            );
+            const matchesName = c.name.toLowerCase().includes(k);
+            const matchesPrep = (c.prep || '').toLowerCase().includes(k);
+            return matchesIngredient || matchesName || matchesPrep;
+          });
         });
       }
       if(this.maxIngredients > 0 && this.maxIngredients < 12){
