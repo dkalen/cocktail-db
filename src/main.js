@@ -6,12 +6,13 @@ import router from './router';
 import VueMasonry from 'vue-masonry-css'
 import VueMaterial from 'vue-material'
 import 'vue-material/dist/vue-material.min.css'
+import Slider from 'material-components-vue/dist/slider'
 
 Vue.config.productionTip = false;
 
 Vue.use(VueMasonry);
 Vue.use(VueMaterial);
-
+Vue.use(Slider);
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
