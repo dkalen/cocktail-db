@@ -2,6 +2,7 @@
   "name": "cocktail-db",
   "version": "1.0.0",
   "description": "A Vue.js project",
+  "homepage": "git@github.com:dkalen/cocktail-db",
   "author": "David Kalen <kalen@my.uri.edu>",
   "private": true,
   "scripts": {
@@ -12,7 +13,7 @@
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
     "build": "node build/build.js",
-    "deploy": "gh-pages -d examples/dist",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js",
     "publish-demo": "npm run build && npm run deploy"
   },
   "dependencies": {
@@ -68,6 +69,7 @@
     "shelljs": "^0.7.6",
     "uglifyjs-webpack-plugin": "^1.1.1",
     "url-loader": "^0.5.8",
+    "vue-gh-pages": "^1.19.0",
     "vue-jest": "^1.0.2",
     "vue-loader": "^13.3.0",
     "vue-masonry-css": "^1.0.3",
