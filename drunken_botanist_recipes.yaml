@@ -1,0 +1,128 @@
+recipes:
+  - name: Classic Margarita
+    ingredients:
+      - name: Tequila
+        amount: 1.5 ounce
+      - name: lime juice
+        amount: 0.5 ounce
+      - name: cointreau or another high-quality orange liqueur
+        amount: 0.5 ounce
+      - name: agave syrup or simple syrup
+        amount: dash
+      - name: lime slice
+    prep: Use good 100% agave tequila. A blanco would be the classic choice, but feel free to experiment with aged tequilas. Shake all the ingredients except the slice of lime over ice and serve straight up in a cocktail glass or over ice in an Old-Fashioned glass. Garnish with the slice of lime.
+  - name: The French Intervention
+    description: While most mezcal distillers are puzzled by the idea of mixing their spirit into a cocktail, American bartenders can’t resist experimentation. In fact, tequila and mezcal both work beautifully in any cocktail that calls for whiskey, rye, or bourbon. This blend of French and Mexican ingredients is named after the 1862 French invasion of Mexico that brought Dr. Weber, who named A. tequilana, to the country.
+    ingredients:
+      - name: reposado tequila or mezcal
+        amount: 1.5 ounce
+      - name: Lillet blanc
+        amount: .75 ounce
+      - name: Green Chartreuse
+        amount: dash
+      - name: Grapefruit peel
+    prep: Shake all the ingredients except the grapefruit peel over ice and strain into a cocktail glass. Garnish with the grapefruit peel.
+  - name: Cider Cup
+    description: In the Middle Ages, people made a crudely fermented drink called dépense by steeping apples and other fruit in water and letting the juice ferment naturally. This is a much more refined version that is light enough to drink all afternoon in the summer.
+    ingredients:
+      - name: hard cider
+        amount: 2 parts
+      - name: sliced apples, oranges, melons, or other seasonal fruit
+      - name: frozen raspberries, strawberries, or grapes
+      - name: ginger beer or ginger ale
+        amount: 1 part
+    prep: In a large pitcher, combine the cider and sliced fruit; allow to soak for 3 to 6 hours. Strain to remove the sliced fruit. Fill highball glasses with ice and frozen berries, fill the glass three-quarters full with cider, and top with ginger beer to taste.
+  - name: The Vavilov Affair
+    description: Russian botanist Nikolai Vavilov risked everything to preserve the wild ancestors of the apple tree. In the early twentieth century, he traveled the world to identify the geographic origins of such important crops as apples, wheat, corn, and other grains, collecting seed from hundreds of thousands of plants to establish a seed bank and advance the science of genetics. His goal was to improve crop yields for Russian farmers, but Joseph Stalin considered him an enemy of the state. Stalin had some funny ideas about science: he believed that a person’s behavior could change their genetic makeup, so that habits learned in one lifetime could be passed on through their DNA. Scientists who disagreed went to jail for it. Vavilov was arrested for his beliefs in 1940. He spent his last days delivering lectures on genetics to the other prisoners, many of whom surely wished Stalin would have arrested some locksmiths or dynamite experts instead of botanists. This version of an Old-Fashioned is mixed with equal parts applejack and bourbon, combining apples, corn, and grains in Vavilov’s honor.
+    ingredients:
+      - name: applejack
+        amount: 3/4 ounce
+      - name: bourbon
+        amount: 3/4 ounce
+      - name: sugar cube
+        amount: 1
+      - name: Angostura bitters
+        amount: 2 dashes
+      - name: sharp apple, such as Granny Smith or Fuji
+        amount: 2 slices
+    prep: Place the sugar cube in the bottom of an Old-Fashioned glass. Splash the bitters and a few drops of water  on the cube, and muddle. Add ice, the applejack, and the bourbon and stir well. Use a citrus squeezer to squeeze the juice of 1 apple slice on top. Add the second slice to the glass as garnish.
+  - name: Rusty Nail
+    description: Drambuie is a rich and gorgeous liqueur made of Scotch, honey, saffron, nutmeg, and other mysterious spices. Like many such concoctions, it is unnecessarily burdened by one of those legends only a marketing executive could love: In 1745, Charles Edward Stuart, otherwise known as Bonnie Prince Charlie, tried to regain the throne after his father’s ouster by opponents. He was given refuge on the Isle of Skye and, according to the story, gave his cherished drink recipe to his protectors as a show of thanks. It changed hands a few times before becoming the commercial product it is today. Dethroned princes aside, Drambuie is excellent on its own, over ice as an after-dinner drink, and as an ingredient in one of the world’s simplest and most enjoyable cocktails. A Rusty Nail is the perfect gateway drink for anyone not quite ready for the bracing woodsiness of Scotch. (Not to be outdone, the Irish have their own whiskey liqueur. The Irish Mist backstory is even mistier than Drambuie’s, involving an ancient manuscript brought to Ireland by a mysterious traveler and then handed down through several generations. It is a similarly sweet and spicy liqueur, and although it is not as popular as Drambuie, devotees of Irish whiskey should give it a try.) Because this recipe combines Scotch with a Scotch-based liqueur, it also illustrates a clever bartending technique: whenever possible, mix spirits with liqueurs made from the same base spirit.
+    ingredients:
+      - name: Drambuie
+        amount: 1 ounce
+      - name: Scotch
+        amount: 1 ounce
+    prep: Add the ingredients to an Old-Fashioned glass half filled with ice and stir. The Irish version, a Black Nail, is made with Irish Mist and Irish whiskey.
+  - name: Old-Fashioned
+    ingredients:
+      - name: bourbon
+        amount: 1 1/2 oz
+      - name: sugar cube
+        amount: 1
+      - name: Angostura or orange bitters
+        amount: 2 to 3 dashes
+    prep: Place the sugar cube in the bottom of an Old-Fashioned glass and give it a few dashes of bitters. Add a splash of water and use a muddler to crush the ingredients together. Swirl the mixture around in the glass, add boubon and ice, and stir. Although the addition of fruit to this drink is considered a sacrilege in some circles, a tru Italian maraschino cherry perfectly complements bourbon's natural sweetness.
+  - name: Vermouth Cocktail
+    description: This classic cocktail is a template for experimentation with aromatized wines. Mixing Punt e Mes and Bonal Gentiane Quina, for instance makes for a remarkably good drink. And Lillet blends well with almost anything.
+    ingredients:
+      - 1 oz dry white vermouth
+      - 1 oz sweet red vermouth
+      - dash of angostura bitters
+      - dash of orange bitters
+      - lemon peel
+      - soda water (optional)
+    prep: Shake the white and red vermouth and bitters over ice and strain into a cocktail glass, or serve over ice topped with soda water. Garnish with the lemon peel.
+  - name: Pisco Sour
+    description: This is Peru's national cocktail.
+    ingredients:
+      - 1 1/2 oz pisco
+      - 3/4 oz lemon or lime juice
+      - 3/4 oz simple syrup
+      - 1 egg white
+      - angostura bitters
+    prep: Shake all the ingredients except the bitters in a cocktail shaker without ice for at least 10 seconds. The "dry shake" makes the drink foamy. Then add ice and shake for at least 45 seconds more. Pour into a cocktail glass and sprinkle a few drops of bitters on top.
+  - name: Black Gold
+    ingredients:
+      - 1 1/2 oz Karlsson's Gold vodka
+      - Cracked black pepper
+    prep: Fill an Old-Fashioned glass with ice cubes and pour the vodka over the ice. Crack black pepper over the ice.
+  - name: No. 1 Sake Cocktail
+    description: In the last few years, Asian restaurants in the United States have felt some obligation to create cocktails from sake and shochu. This is a shame, because both drinks are lovely on their own and seem to resist mixing - the flavors just don't marry well with other cocktail ingredients. But here, after much experimentation, is on sake cocktail that is a proven crowd-pleaser. It's easy to make a batch before a party, which is why it is presented in portions rather than ounces. Make as much or as little as you need.
+    ingredients:
+      - 4 parts nigori (unfiltered) sake
+      - 2 parts mango-peach juice (a bottled blend is fine)
+      - 1 part vodka
+      - dash of domaine de canton ginger liqueur
+      - drop of celery bitters
+    prep: Mix all the ingredients except the bitters briskly; then taste. It might need more ginger liqueur or vodka at this stage. Keep chilled until your guests arrive and then pour into cocktail glasses. Add a drop of celery bitters to the top of each drink as you serve it.
+  - name: Manhattan
+    description: The Manhattan is a classic cocktail that puts rye whiskey to its highest and best use, with the sweet vermouth playing off the bitter bite of the rye. It is also a template for endless variations: replace the rye with Scotch and you’ve got a Rob Roy; replace the vermouth with Benedictine and you’ve got a Monte Carlo; or just swap sweet vermouth for dry, and garnish with a lemon twist to make a Dry Manhattan.
+    ingredients:
+      - 1 1/2 oz rye
+      - 3/4 oz sweet vermouth
+      - 2 dashes angostura bitters
+      - maraschino cherry
+    prep: Shake all the ingredients except the cherry over ice and strain into a cocktail glass. Garnish with the cherry.
+  - name: Honey Drip
+    description: This recipe, named after a popular sweet sorghum cultivar, is dessert in a glass.
+    ingredients: 
+      - 1/2 oz sorghum syrup
+      - 1 1/2 bourbon ( or if you don't like bourbon, try it with dark rum )
+      - 1/2 amaretto
+    prep: Because sorghum syrup can be too thick to easily pour or measure, try spooning it into a measuring cup and heating it in the microwave for 10 seconds with a very small amount of water, just enough to make it easy to pour. (Alternatively, drop a dollop of the syrup in the cocktail shaker and hope for the best.) Shake all the ingredients over ice and serve in a cocktail glass.
+  - name: Daiquiri
+    ingredients: 
+      - 1 1/2 oz white rum
+      - 1 oz simple syrup
+      - 3/4 oz lime juice
+    prep: A classic daiquiri is made with nothing but these three ingredients. Shake over ice and strain into a cocktail glass.
+  - name: Mojito Y Mas
+    ingredients:
+      - 1 1/2 oz white rum
+      - 1 oz simple syrup
+      - 3/4 oz lime juice
+      - soda water
+      - 3 sprigs fresh spearmint
+    prep: In a cocktail shaker, muddle 2 spearmint sprigs, the lime juice, and the simple syrup. Add the rum, shake with ice, and strain into a highball glass filled with crushed ice. Top with soda water and garnish with the remaining sprig of spearmint. Variation: The Mojito y Mas makes use of any garden-fresh, seasonal fruit available. Peaches, plums, apricots, raspberries, and strawberries work best. Make the recipe as usual, but fill the highball glass with a mixture of crushed ice and chopped fruit. Add the rum, top with sparkling wine instead of soda (a dry Spanish cava works well), and go sit in the sun.
+  - name: 
